@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTIPLE PAGES</title>
+    <style>
+        .body {
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            padding: 0px;
+            background-color: rgba(36, 36, 255, 0.336);
+        }
+
+        #header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #343434;
+            padding: 15px;
+            align-items: center;
+            border: 2px solid red;
+            opacity: 1;
+            margin: 0px;
+            min-width: 40em;
+        }
+
+        #header .logo {
+            margin-left: 1em;
+        }
+
+        .nav {
+            background-color: #0d0d0d;
+            margin-right: 1em;
+            width: 33em;
+            min-width: 20em;
+        }
+
+        .nav>ul {
+            display: flex;
+            column-gap: 2em;
+            margin: 0px;
+            padding: 0 0.5em;
+        }
+
+        .nav>ul>li {
+            list-style: none;
+            margin: 1em;
+            padding: 0em;
+        }
+
+        .nav>ul>li>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav>ul>li :hover {
+            color: gray;
+            border: 2px solid red;
+            border-radius: 5px;
+            padding: 2px;
+        }
+
+        .img {
+            margin-left: 3em;
+            border: 4px solid black;
+        }
+
+        .list2 {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <header id="header">
+
+        <div class="logo">
+            <img width="75px" src="./images/Free_Sample_By_Wix.jpg" alt="">
+        </div>
+
+
+        <nav class="nav">
+            <ul>
+                <li class="list1"><a href="./index.html"> HOME</a></li>
+                <li class="list2">GALLERY</li>
+                <li class="list4"><a href="./about.html">ABOUT</a></li>
+                <li class="list3"><a href="./contact.html"> CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <body style="display: inline;"> <img class="img" src="images/albert-stoynov-Opwvoz9zwYk-unsplash.jpg" width="600"
+            height="500">
+    </body>
+    <img class="img" src="images/hunter-reilly-Zan-yGVCBws-unsplash.jpg" width="600" height="500">
+    <img class="img" src="images/joel-de-vriend-1CsDZ-VbcPM-unsplash copy.jpg" width="600" height="500">
+    <img class="img" src="images/lowes-takes-photos-O6khX6-XozY-unsplash.jpg" width="600" height="500">
+    <img class="img" src="images/mahdi-bafande-IUyqalhFMNA-unsplash.jpg" width="600" height="500">
+    <img class="img" src="images/sergei-kleschevskii-1riUiMybyr8-unsplash.jpg" width="600" height="500">
+
+</body>
+
+</html>
